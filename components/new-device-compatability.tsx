@@ -60,13 +60,13 @@ export default function NewDeviceCompatability() {
                         </span>
                     </li>
               </ul> */}
-              <div className=" rounded-lg mx-auto mb-4 flex items-center justify-center">
+              <div className=" rounded-lg mx-auto mb-4 gap-8 flex items-center justify-center">
                 <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/device-1.svg' className="w-40 h-40"/>
+                  <img src='/compatability/OB-GYN.png' className="h-40"/>
                   <p className="text-[#9B7FB8]">LU700C CONVEX</p>
                 </div>
                 <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/device-2.svg' className="w-40 h-40"/>
+                  <img src='/compatability/Cardiac.png' className="h-40"/>
                   <p className="text-[#9B7FB8]">LU700L LINEAR</p>
                 </div>
               </div>

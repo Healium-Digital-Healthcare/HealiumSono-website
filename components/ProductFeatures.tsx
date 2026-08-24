@@ -55,7 +55,7 @@ export function ProductFeatures() {
   return (
     <section id="features" className="container mx-auto px-4 py-16 sm:py-10 sm:px-20">
       <div className="relative flex items-center justify-center">
-        <Image src='/device/device-1.png' alt="" width={300} height={200}/>
+        <Image src='/device/OB-GYN.png' alt="" height={200}/>
       </div>
       <div className="flex flex-col items-center justify-center my-2 gap-2">
         <p className="text-xl font-bold text-center">Healium Ultrasound Device for CKD Detection and  Management</p>
