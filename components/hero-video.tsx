@@ -9,7 +9,7 @@ export default function HeroVideo() {
         <div className="absolute inset-0 w-full h-full">
         <iframe 
         className="w-full h-full"
-        src="https://www.youtube.com/embed/OuQjcn0XPic?si=G6T_PfXG0bJCysmE"
+        src="https://www.youtube.com/embed/WeBHf835x18?si=-w-Ta_EO_-U-blve"
         title="YouTube video player" 
         frameBorder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
