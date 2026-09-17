@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet"
-import { Briefcase, HelpCircle, Info, Menu } from "lucide-react"
+import { Briefcase, HelpCircle, Info, Menu, Download } from "lucide-react"
 
 const links = [
   { href: "/", label: "Home", icon: Briefcase },
@@ -55,6 +55,19 @@ export function SiteHeader() {
             <Button asChild className="bg-[#C8B5E8] text-[#2D2D2D] hover:bg-[#B8A5D8] rounded-full px-6">
               <Link href='#contact'>Book a demo</Link>
             </Button>
+             <Button
+    asChild
+    variant="outline"
+    className="border-2 border-[#C8B5E8] text-[#2D2D2D] bg-transparent hover:bg-[#C8B5E8]/10 rounded-full px-6"
+  >
+    <a
+      href="https://drive.google.com/uc?export=download&id=1EAOuLUHGQ6p5FuNPCPbXzuO9z5zEIKz0"
+    rel="noopener noreferrer"
+    >
+      <Download className="w-4 h-4 mr-2" />
+      Try for free
+    </a>
+  </Button>
           </div>
 
           {/* Mobile Nav */}
@@ -88,6 +101,14 @@ export function SiteHeader() {
                   >
                     <span className="text-xl">Login</span>
                   </Link>
+
+                     <a href="https://drive.google.com/uc?export=download&id=1EAOuLUHGQ6p5FuNPCPbXzuO9z5zEIKz0"
+  rel="noopener noreferrer"
+  onClick={() => setOpen(false)}
+  className="text-[#2D2D2D] text-center flex items-center justify-center gap-3 px-4 py-3 hover:bg-gray-900 hover:text-purple-300 transition-colors"
+>
+    <span className="text-xl">Try for free</span>
+  </a>
 
                   {/* <Button
                     asChild
