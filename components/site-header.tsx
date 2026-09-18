@@ -98,7 +98,7 @@ export function SiteHeader() {
               className="border-2 border-[#C8B5E8] text-[#2D2D2D] bg-transparent hover:bg-[#C8B5E8]/10 rounded-full px-6"
             >
               <a
-                href="https://drive.google.com/uc?export=download&id=1Y8SPF6jRDYj_EnPf9xpXkV0rPyQRwjPT&confirm=t"
+                href=""
                 rel="noopener noreferrer"
               >
                 <Download className="w-4 h-4 mr-2" />
@@ -143,7 +143,7 @@ export function SiteHeader() {
                   </Link>
 
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1Y8SPF6jRDYj_EnPf9xpXkV0rPyQRwjPT&confirm=t"
+                    href=""
                     rel="noopener noreferrer"
                     onClick={() => setOpen(false)}
                     className="text-[#2D2D2D] text-center flex items-center justify-center gap-3 px-4 py-3 hover:bg-gray-900 hover:text-purple-300 transition-colors"
