@@ -12,14 +12,10 @@ const DeviceCompatibilitySection = () => {
           <Card className="p-8 text-center">
             <CardContent className="p-0 space-y-4">
               <h3 className="font-medium text-lg text-white mb-2">For the bedside scanner</h3>
-              <div className=" rounded-lg mx-auto mb-4 gap-8 flex items-center justify-center">
+              <div className="rounded-lg mx-auto mb-4 flex items-center justify-center">
                 <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/OB-GYN.png' className="h-40"/>
-                  <p className="text-white">LU700C CONVEX</p>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/Cardiac.png' className="h-40"/>
-                  <p className="text-white">LU700L LINEAR</p>
+                  <img src='/compatability/HEALIUM-Intelliscan-Device.png' alt="HEALIUM Intelliscan Device" className="h-44 w-auto object-contain"/>
+                  <p className="text-white">HEALIUM Intelliscan Device</p>
                 </div>
               </div>
             </CardContent>

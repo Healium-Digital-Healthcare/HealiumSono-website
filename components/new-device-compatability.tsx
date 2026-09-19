@@ -26,48 +26,10 @@ export default function NewDeviceCompatability() {
             </div>
 
             <div className="">
-                {/* <ul className="space-y-3">
-                    <li className="flex items-center gap-4">
-                        <div className="w-5 h-5 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center">
-                            <Check className="w-5 h-5 text-[#9B7FB8]" />
-                        </div>
-                        <span className="text-[18px] leading-[1.55] text-[rgb(84,75,72)]">
-                            Real-time guidance during scanning
-                        </span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                        <div className="w-5 h-5 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center">
-                            <Check className="w-5 h-5 text-[#9B7FB8]" />
-                        </div>
-                        <span className="text-[18px] leading-[1.55] text-[rgb(84,75,72)]">
-                            Automatic quality assessment
-                        </span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                        <div className="w-5 h-5 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center">
-                            <Check className="w-5 h-5 text-[#9B7FB8]" />
-                        </div>
-                        <span className="text-[18px] leading-[1.55] text-[rgb(84,75,72)]">
-                            Reduced operator variability
-                        </span>
-                    </li>
-                    <li className="flex items-center gap-4">
-                        <div className="w-5 h-5 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center">
-                            <Check className="w-5 h-5 text-[#9B7FB8]" />
-                        </div>
-                        <span className="text-[18px] leading-[1.55] text-[rgb(84,75,72)]">
-                            Faster scan completion
-                        </span>
-                    </li>
-              </ul> */}
-              <div className=" rounded-lg mx-auto mb-4 gap-8 flex items-center justify-center">
+              <div className="rounded-lg mx-auto mb-4 flex items-center justify-center">
                 <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/OB-GYN.png' className="h-40"/>
-                  <p className="text-[#9B7FB8]">LU700C CONVEX</p>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <img src='/compatability/Cardiac.png' className="h-40"/>
-                  <p className="text-[#9B7FB8]">LU700L LINEAR</p>
+                  <img src='/compatability/HEALIUM-Intelliscan-Device.png' alt="HEALIUM Intelliscan Device" className="h-44 w-auto object-contain"/>
+                  <p className="text-[#9B7FB8]">HEALIUM Intelliscan Device</p>
                 </div>
               </div>
               <ul className="space-y-3">
